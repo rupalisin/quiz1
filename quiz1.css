@@ -1,0 +1,34 @@
+body{
+   min-height: 100vh;
+   text-align: center;
+   color: blanchedalmond;
+   overflow: hidden;
+   background: linear-gradient(#f4f4f4ed,white);
+   background-image:url('quiz bgimg.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+    .quiz {
+   /* border: 1px solid black;*/
+     position:absolute;
+    top: 25%;
+    left: 40%;
+    transform: translate(-60% -60%);
+    text-align: center;
+   padding: 60px 100px;
+}
+
+ .btn {
+   width: 140px;
+  font-size: 20px;
+  font-weight: 500;
+  background-color: coral;
+  color:cornflowerblue;
+  padding: 15px 30px;
+  outline: none;
+  border: 2px solid rgb(255, 0, 212);
+  border-radius: 10px;
+  background: #fff;
+  cursor: pointer;
+}
