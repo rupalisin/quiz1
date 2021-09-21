@@ -1,34 +1,120 @@
-body{
-   min-height: 100vh;
-   text-align: center;
-   color: blanchedalmond;
-   overflow: hidden;
-   background: linear-gradient(#f4f4f4ed,white);
-   background-image:url('quiz bgimg.jpg');
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  background-attachment: fixed;
-}
-    .quiz {
-   /* border: 1px solid black;*/
-     position:absolute;
-    top: 25%;
-    left: 40%;
-    transform: translate(-60% -60%);
+body {
+    min-height: 100vh;
+    position: relative;
     text-align: center;
-   padding: 60px 100px;
+    color: blanchedalmond;
+    overflow: hidden;
+    background: linear-gradient(#f4f4f4ed, white);
+    background-image: url('../images/neon-border-2.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
 }
 
- .btn {
-   width: 140px;
-  font-size: 20px;
-  font-weight: 500;
-  background-color: coral;
-  color:cornflowerblue;
-  padding: 15px 30px;
-  outline: none;
-  border: 2px solid rgb(255, 0, 212);
-  border-radius: 10px;
-  background: #fff;
-  cursor: pointer;
+.navbar-nav {
+    margin-left: auto;
+    margin-right: 6%;
+    margin-top: 5%;
 }
+
+.collapse {
+    text-align: right;
+}
+
+.navbar-toggler {
+    background-color: #E8F6EF;
+}
+
+.brand1 {
+    height: 7rem;
+    border-radius: 0.5rem;
+    margin: 5%;
+}
+
+.brand1:hover {
+    margin-left: 5px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(211, 228, 228, 0.521);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(223, 233, 230, 0.849);
+    box-shadow: 0px 0px 10px 0px rgb(157, 230, 193);
+}
+
+.btn1 {
+    background-color: aliceblue;
+}
+
+.main-head {
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    margin-top: 7%;
+    font-size: 4.5rem;
+    color: #E8F6EF;
+    transition: transform .5s;
+}
+
+@media only screen and (max-width: 600px) {
+    .main-head {
+        font-size: 3.2rem;
+    }
+}
+
+.main-head:hover {
+    transform: scale(1.2);
+}
+
+.quiz {
+    text-align: center;
+    padding: 60px 100px;
+    top: 20%;
+}
+
+.btn {
+    width: 11rem;
+    margin: 1.5%;
+}
+
+.back_how {
+    border-color: #E8F6EF;
+    color: #E8F6EF;
+}
+
+.how_to_play
+{
+    margin-top: 2%;
+    padding: 2%;
+}
+
+.how_to_play_list{
+    font-size: 1.3rem;
+}
+
+@media screen and (max-width:800px){
+    .how_to_play_list{
+        margin-top: 1.5%;
+        font-size: 0.9rem;
+        margin: 3%;
+    }
+}
+
+@media screen and (max-width:542px){
+    .how_to_play_list{
+        margin-top: 1.5%;
+        font-size: 0.8rem;
+        margin: 3%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .main-head{
+        font-size: 2.5rem;
+        margin-top: 15%;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .nav-link{
+        margin-bottom: 0;
+    }
+}
+
